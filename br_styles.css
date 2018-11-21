@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 4
@@ -14,6 +17,7 @@
 */
 html {
     background: url(br_paper.png) center center;
+
 }
 
 /* body styles */
@@ -22,6 +26,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: snow;
+    box-shadow: 1px 1px 10px 5px;
 }
 
 body header img {
@@ -29,7 +34,7 @@ body header img {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
 }
 
 /* navigation styles */
@@ -37,17 +42,20 @@ nav#one {
     display: table;
     width: 100%;
     text-align: center;
-    padding: 1%;
+    padding: 1% 1% 0% 1%;
+    font-family: 'Libre Baskerville', serif;
+
 }
 
 nav#one ul {
     display: table-row;
+
 }
 
 nav#one ul li {
     display: table-cell;
     border: 1px solid black;
-    background-color: wheat;
+    background-color: rgb(0, 0, 0);
 }
 
 nav#one ul li>a {
@@ -56,12 +64,12 @@ nav#one ul li>a {
 
 nav#one ul li a:link,
 nav#one ul li a:visited {
-    color: black;
+    color: rgb(228, 230, 130);
 }
 
 nav#one ul li a:active,
 nav#one ul li a:hover {
-    color: rgb(105, 105, 105);
+    color: rgb(121, 133, 18);
 
 }
 
@@ -74,6 +82,12 @@ nav#two {
     margin-right: 2%;
     border: 2px solid black;
     width: 50%;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 15px 15px 15px 15px;
+    text-shadow: 1px 1px 1px rgb(180, 178, 178);
+
+
 }
 
 nav#two ul li a:link,
@@ -94,6 +108,11 @@ aside#description {
     padding: 1%;
     margin: 1%;
     border: 2px solid black;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 15px 15px 15px 15px;
+    text-shadow: 1px 1px .5px rgb(110, 110, 110);
+
 }
 
 section#listing {
@@ -101,6 +120,11 @@ section#listing {
     margin: 0% 5% 5% 5%;
     border: 2px solid black;
     padding: 1% 1% 1% 1%;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Libre Baskerville', serif;
+    /* border-radius: 30px 30px 30px 30px; */
+    text-shadow: 1px 1px 1px rgb(110, 110, 110);
+    background: radial-gradient(white, rgb(182, 114, 114), rgb(82, 20, 20));
 }
 
 section#listing h1 {
