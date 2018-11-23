@@ -152,21 +152,25 @@ section#listing h1 {
 
 section#photos {
     display: table;
-    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#photos ul {
     display: table-row-group;
+
 }
 
 section#photos ul li {
     display: table-cell;
     float: left;
+
 }
 
 section#photostwo {
     display: table;
-    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#photostwo ul {
@@ -179,7 +183,8 @@ section#photostwo ul li {
 
 section#photosthree {
     display: table;
-    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#photosthree ul {
@@ -189,4 +194,12 @@ section#photosthree ul {
 section#photosthree ul li {
     display: table-cell;
 
+}
+
+section#lotphotos {
+    padding-bottom: 8%;
+}
+
+img {
+    box-shadow: 10px 10px 10px rgb(51, 51, 51);
 }
