@@ -36,7 +36,9 @@ body header img {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-
+    border: 1px solid rgb(151, 146, 146);
+    box-shadow: 10px 10px 10px rgb(51, 51, 51);
+    filter: sepia(100%);
 }
 
 /* navigation styles */
@@ -154,6 +156,7 @@ section#photos {
     display: table;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 section#photos ul {
@@ -164,7 +167,9 @@ section#photos ul {
 section#photos ul li {
     display: table-cell;
     float: left;
+    transform: rotate(15deg);
 
+    box-shadow: rgb(39, 39, 39) 10px 10px 25px;
 }
 
 section#photostwo {
@@ -179,6 +184,8 @@ section#photostwo ul {
 
 section#photostwo ul li {
     display: table-cell;
+    transform: rotate(-15deg);
+    box-shadow: rgb(39, 39, 39) 10px 10px 25px;
 }
 
 section#photosthree {
@@ -193,13 +200,12 @@ section#photosthree ul {
 
 section#photosthree ul li {
     display: table-cell;
+    transform: rotate(15deg);
+    box-shadow: rgb(39, 39, 39) 10px 10px 25px;
 
 }
 
 section#lotphotos {
     padding-bottom: 8%;
-}
 
-img {
-    box-shadow: 10px 10px 10px rgb(51, 51, 51);
 }
